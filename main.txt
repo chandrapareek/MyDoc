@@ -1,0 +1,98 @@
+ <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#25F42D"
+        android:fontFamily="@font/metal_mania"
+        android:text="        vaidy"
+        android:textColor="#FFFFFF"
+        android:textSize="55dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="121dp"
+        android:layout_height="59dp"
+        app:srcCompat="@drawable/doctor" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_marginTop="100dp"
+        android:clickable="true"
+        android:enabled="true"
+        android:fontFamily="@font/aclonica"
+        android:text="DR. Bharat Pareek"
+        android:textAlignment="center"
+        android:textColor="#151515"
+        app:backgroundTint="#0FEBFF" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_marginTop="160dp"
+        android:clickable="true"
+        android:enabled="true"
+        android:fontFamily="@font/aclonica"
+        android:text="DR. Rekha Bohra"
+        android:textColor="#131313"
+        app:backgroundTint="#0FEBFF" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_marginTop="230dp"
+        android:clickable="true"
+        android:enabled="true"
+        android:fontFamily="@font/aclonica"
+        android:text="DR. Nitesh Pareek"
+        android:textColor="#131313"
+        app:backgroundTint="#0FEBFF" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_marginTop="305dp"
+        android:clickable="true"
+        android:enabled="true"
+        android:fontFamily="@font/aclonica"
+        android:text="DR. Tanuj Pareek"
+        android:textColor="#131313"
+        app:backgroundTint="#0FEBFF" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="640dp"
+        android:text="Copyright@Chandra Pareek" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        style="@style/Widget.AppCompat.Spinner.DropDown.ActionBar"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:animateLayoutChanges="false"
+        android:background="#C6C3C3"
+        android:fadeScrollbars="false"
+        android:soundEffectsEnabled="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_marginTop="380dp"
+        android:fontFamily="@font/aclonica"
+        android:text="dr. aakash pareek"
+        android:textColor="#0C0C0C"
+        app:backgroundTint="#0FEBFF" />

@@ -1,0 +1,47 @@
+   val button = findViewById<Button>(R.id.button)
+        button.setOnClickListener {
+            val intent = Intent(this, bharat::class.java)
+            startActivity(intent)
+        }
+
+        val btn2 = findViewById<Button>(R.id.btn2)
+        btn2.setOnClickListener {
+            val intent = Intent(this, rekha::class.java)
+            startActivity(intent)
+        }
+
+        val btn3 = findViewById<Button>(R.id.btn3)
+        btn3.setOnClickListener {
+            val intent = Intent(this, nitesh::class.java)
+            startActivity(intent)
+        }
+
+        val btn4 = findViewById<Button>(R.id.btn4)
+        btn4.setOnClickListener {
+            val intent = Intent(this, tanuj::class.java)
+            startActivity(intent)
+
+        }
+        val spinner: Spinner = findViewById(R.id.spinner)
+
+        ArrayAdapter.createFromResource(
+            this,
+            R.array.Location,
+            android.R.layout.simple_spinner_item
+        ).also { adapter ->
+            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+            spinner.adapter = adapter
+        }
+        class SpinnerActivity : Activity(), AdapterView.OnItemSelectedListener {
+
+            override fun onItemSelected(parent: AdapterView<*>, view: View?, pos: Int, id: Long) {
+                // An item was selected. You can retrieve the selected item using
+                // parent.getItemAtPosition(pos)
+            }
+
+            override fun onNothingSelected(parent: AdapterView<*>) {
+                val spinner: Spinner = findViewById(R.id.spinner)
+                spinner.onItemSelectedListener = this
+                // Another interface callback
+            }
+        }

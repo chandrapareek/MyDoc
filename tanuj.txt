@@ -1,0 +1,65 @@
+  <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#16FAFA"
+        android:fontFamily="@font/metal_mania"
+        android:text="  DR. tanuj Pareek"
+        android:textColor="#050505"
+        android:textSize="44sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="355dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/img_20210125_wa0111" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="420dp"
+        android:fontFamily="@font/aclonica"
+        android:text="AGE: 20"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="450dp"
+        android:fontFamily="@font/aclonica"
+        android:text="EDUCATION: Geetanjali Medical College,Udaipur(MBBS)"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="540dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Office Address: Block 15,Wall Street,London"
+        android:textColor="#706C6C"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="660dp"
+        android:text="Copyright@Chandra Pareek" />
+
+    <Button
+        android:id="@+id/btnD"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="360dp"
+        android:text="+"
+        android:textColor="#090909"
+        app:backgroundTint="#0CDDF1"
+        app:cornerRadius="55dp" />

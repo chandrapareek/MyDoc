@@ -1,0 +1,53 @@
+  <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#09EDF4"
+        android:fontFamily="@font/metal_mania"
+        android:text="vaidy"
+        android:textAlignment="center"
+        android:textColor="#F3ECEC"
+        android:textSize="60sp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="130dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:hint="Problem"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="322dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="270dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="123dp"
+        android:layout_height="63dp"
+        app:srcCompat="@drawable/doctor" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="370dp"
+        android:text="Take Appointment" />
