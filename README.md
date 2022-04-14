@@ -1,7 +1,7 @@
 # MyDoc
 An android app for booking an appointment with doctor via mobile phone
 # LOGIN PAGE
-![Screenshot_20210202_183459](https://user-images.githubusercontent.com/96520980/163360147-4ef48c2e-a643-4c97-925d-de355c5391cc.jpg)
+![Screenshot_20210202_183459](https://user-images.githubusercontent.com/96520980/163360147-4ef48c2e-a643-4c97-925d-de355c5391cc.jpg = 250x250)
 # MAIN PAGE
 ![Screenshot_20210202_183531 (1)](https://user-images.githubusercontent.com/96520980/163360169-eeb33797-b2c5-42e5-a98d-7b014eb0390e.jpg)
 # DOCTOR INFO PAGE
