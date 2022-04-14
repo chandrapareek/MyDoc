@@ -1,7 +1,7 @@
 # MyDoc
 An android app for booking an appointment with doctor via mobile phone
 # LOGIN PAGE
-<img src = "https://user-images.githubusercontent.com/96520980/163360147-4ef48c2e-a643-4c97-925d-de355c5391cc.jpg" width = "250" height = "450"/>
+!<img src = "https://user-images.githubusercontent.com/96520980/163360147-4ef48c2e-a643-4c97-925d-de355c5391cc.jpg" width = "250" height = "450"/>
 # MAIN PAGE
 <img src = "https://user-images.githubusercontent.com/96520980/163360169-eeb33797-b2c5-42e5-a98d-7b014eb0390e.jpg" width = "250" height = "450"/>
 # DOCTOR INFO PAGE
